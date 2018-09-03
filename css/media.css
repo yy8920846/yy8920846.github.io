@@ -1,0 +1,37 @@
+@media screen and (max-width:920px ){
+    .apple_MB .apple_MB_image .apple_MB_images{
+        background-image: url("../images/iphone_x_medium.jpg");
+    }
+    .apple_MB .apple_MB_image .apple_Ipad_images{
+        background-image: url("../images/ipad_medium.jpg");
+    }
+    .apple_MacBook .apple_MacBook_image{
+        background-image: url("../images/macbook_pro_performance_medium.jpg");
+        background-position: -100px -200px;
+    }
+    .apple_device .device_left .device_img-left{
+        background-image: url("../images/september_2018_medium.jpg");
+    }
+}
+@media screen and (max-width:768px ){
+    .apple_MB .apple_MB_image .apple_MB_images{
+        background-image: url("../images/iphone_x_small.jpg");
+        width:352px;
+        height: 350px;
+        left: calc(50% + 0px);
+    }
+    .apple_MB .apple_MB_image .apple_Ipad_images{
+        width:352px;
+        height: 350px;
+        background-image: url("../images/ipad_small.jpg");
+    }
+    .apple_MacBook .apple_MacBook_image{
+        width:352px;
+        height: 350px;
+        background-image: url("../images/macbook_pro_performance_small.jpg");
+        background-position: -180px -200px;
+    }
+    .apple_device .device_left .device_img-left{
+        background-image: url("../images/september_2018_small.jpg");
+    }
+}
